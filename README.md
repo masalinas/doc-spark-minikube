@@ -43,6 +43,7 @@ Add an entry to /etc/hosts:
 ```sh
 $ echo "$(minikube ip) spark-kubernetes" | sudo tee -a /etc/hosts
 ```
+### Install spark inside Mac M1
 
 In **Mac with minikube** installed, you must execute this command and create a tunnel like this
 
