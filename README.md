@@ -27,7 +27,7 @@ inside minikube directly
 
 ```sh
 $ eval $(minikube docker-env)
-$ docker build -t spark-hadoop:3.2.0 -f ./docker/Dockerfile ./docker
+$ docker build -f docker/Dockerfile -t spark-hadoop:3.2.0 ./docker
 ```
 
 Create the deployments and services:
